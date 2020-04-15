@@ -52,7 +52,7 @@ while running:
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                 playerX_change = 0
 
-    #Movement
+    #Player movement
     playerX += playerX_change
 
     #Adding boundaries
