@@ -27,8 +27,8 @@ enemyY = random.randint(50, 150)
 # Draw the player
 def player(x, y):
     screen.blit(playerImg, (x, y))
-    
-# Draw the enemy
+
+# Draw an enemy
 def enemy(x, y):
     screen.blit(enemyImg, (x, y))
 
