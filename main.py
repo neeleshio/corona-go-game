@@ -1,6 +1,7 @@
 import pygame
 import random
 import math
+from pygame import mixer
 
 # Initialize the pygame
 pygame.init()
@@ -8,6 +9,10 @@ pygame.init()
 # Create the screen & backgrond
 screen = pygame.display.set_mode((800, 600))
 background = pygame.image.load('background.png')
+
+# Sounds
+mixer.music.load('bmusic.wav')
+mixer.music.play(-1)
 
 # Title and Icon
 pygame.display.set_caption("corona go")
@@ -91,6 +96,8 @@ while running:
                 playerX_change = 5
             if event.key == pygame.K_SPACE:
                 if bullet_state is "ready":
+                    bullet_sound = mixer.Sound('laser.wav')
+                    bullet_sound.play()
                     bulletX = playerX
                     fire_bullet(bulletX, bulletY)
         if event.type == pygame.KEYUP:
@@ -116,6 +123,8 @@ while running:
         # Collision
         collision = is_collision(enemyX[i], enemyY[i], bulletX, bulletY)
         if collision:
+            collision_sound = mixer.Sound('explosion.wav')
+            collision_sound.play()
             bulletY = 500
             bullet_state = "ready"
             score_value += 1
