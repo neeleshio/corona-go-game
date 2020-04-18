@@ -13,5 +13,5 @@
 3. Run <code>main.py</code>
 
 ## Screenshots:
-
+<img src="https://raw.githubusercontent.com/neeleshio/stock-images/master/ss1.PNG" height="300" width="400"> 
 
