@@ -13,5 +13,5 @@
 3. Run <code>main.py</code>
 
 ## Screenshots:
-<img src="https://raw.githubusercontent.com/neeleshio/stock-images/master/ss1.PNG" height="300" width="400"> <img src="https://github.com/neeleshio/stock-images/blob/master/ss2.PNG" height="300" width="400"> <img src="https://github.com/neeleshio/stock-images/blob/master/ss3.PNG" height="300" width="400"> <img src="https://github.com/neeleshio/stock-images/blob/master/ss4.PNG" height="300" width="400"> 
+
 
