@@ -1,7 +1,7 @@
 <img src="https://img.shields.io/badge/license-MIT-green">          <img src="https://img.shields.io/badge/type-GAME-blue">          <img src="https://img.shields.io/badge/plt-DESKTOP-RED"> <img src="https://img.shields.io/badge/PYGAME-ORANGE">
 
 # corona-go
-## corona shooting  game built with python
+## corona shooting  game built with python🐍 
 
 ## Script: <img src="https://img.shields.io/badge/main.py-yellow">
 
