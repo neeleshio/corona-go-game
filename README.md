@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/license-MIT-green">
+
 # corona-go
 A virus(corona) shooting  game built with python
 
