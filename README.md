@@ -1,10 +1,10 @@
-<img src="https://img.shields.io/badge/license-MIT-green">          <img src="https://img.shields.io/badge/type-GAME-blue">          <img src="https://img.shields.io/badge/plt-DESKTOP-RED">
+<img src="https://img.shields.io/badge/license-MIT-green">          <img src="https://img.shields.io/badge/type-GAME-blue">          <img src="https://img.shields.io/badge/plt-DESKTOP-RED"> <img src="https://img.shields.io/badge/PYGAME-ORANGE">
 
 # corona-go
 ## A virus(corona) shooting  game built with python
 
-# Dependencies:
-<img src="https://img.shields.io/badge/PYGAME-ORANGE">
+# Script:
+<img src="https://img.shields.io/badge/main.py-black">
 
 # Editor:
 <img src="https://img.shields.io/badge/VSCODE-BLUE">
