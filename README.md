@@ -3,7 +3,7 @@
 # corona-go
 ## corona shooting  game built with python
 
-## Script: <img src="https://img.shields.io/badge/main.py-green">
+## Script: <img src="https://img.shields.io/badge/main.py-yellow">
 
 ## Editor: <img src="https://img.shields.io/badge/VSCODE-BLUE">
 
