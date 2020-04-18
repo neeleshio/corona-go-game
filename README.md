@@ -4,7 +4,7 @@
 A virus(corona) shooting  game built with python
 
 # Dependencies:
-<img src="https://img.shields.io/badge/PYGAME-GREEN">
+<img src="https://img.shields.io/badge/PYGAME-ORANGE">
 
 # Editor:
 <img src="https://img.shields.io/badge/VSCODE-BLUE">
