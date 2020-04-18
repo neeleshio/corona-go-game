@@ -47,15 +47,14 @@ bulletX_change = 0
 bulletY_change = 10
 bullet_state = "ready"
 
- # score variable
+ # Score variable
 score_value = 0
 font = pygame.font.Font('Minecrafter_3.ttf', 27)
 textX = 10
-textY = 10 
+textY = 10
 
-def show_score(x, y):
-    score = font.render("Score :" + str(score_value), True, (0, 255, 0))
-    screen.blit(score, (x, y))
+# Game over text
+over_font = pygame.font.Font('Minecrafter_3.ttf', 60)
 
 # Draw the player
 def player(x, y):
@@ -77,6 +76,14 @@ def is_collision(enemyX, enemyY, bulletX, bulletY):
     if distance < 27:
         return True
     else: return False
+
+def show_score(x, y):
+    score = font.render("Score :" + str(score_value), True, (0, 255, 0))
+    screen.blit(score, (x, y))
+
+def game_over_text():
+    over_text = over_font.render("Game over", True, (255, 255, 0))
+    screen.blit(over_text, (180, 250))
 
 # Game loop
 running = True
@@ -113,6 +120,13 @@ while running:
 
     #Enemy movement & boundaries
     for i in range(num_of_enemies):
+        # Game over
+        if enemyY[i] > 440:
+            for j in range(num_of_enemies):
+                enemyY[j] = 2000
+            game_over_text()
+            break
+
         enemyX[i] += enemyX_change[i]
         if enemyX[i] <= 0:
             enemyX_change[i] = 2
