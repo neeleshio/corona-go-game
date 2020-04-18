@@ -11,8 +11,8 @@ screen = pygame.display.set_mode((800, 600))
 background = pygame.image.load('background.png')
 
 # Sounds
-mixer.music.load('bmusic.wav')
-mixer.music.play(-1)
+# mixer.music.load('bmusic.wav')
+# mixer.music.play(-1)
 
 # Title and Icon
 pygame.display.set_caption("corona go")
@@ -78,11 +78,11 @@ def is_collision(enemyX, enemyY, bulletX, bulletY):
     else: return False
 
 def show_score(x, y):
-    score = font.render("Score :" + str(score_value), True, (0, 255, 0))
+    score = font.render("Score :" + str(score_value), True, (255, 255, 255))
     screen.blit(score, (x, y))
 
 def game_over_text():
-    over_text = over_font.render("Game over", True, (255, 255, 0))
+    over_text = over_font.render("Stay Home", True, (255, 255, 0))
     screen.blit(over_text, (180, 250))
 
 # Game loop
@@ -90,7 +90,7 @@ running = True
 while running:
     # Background
     screen.fill((0, 0, 0))
-    screen.blit(background, (4, 0))
+    screen.blit(background, (0, 0))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
