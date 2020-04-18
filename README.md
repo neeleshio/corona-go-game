@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/license-MIT-green"> <img src="https://img.shields.io/badge/type-GAME-blue"> <img src="https://img.shields.io/badge/plt-DESKTOP-RED">
+<img src="https://img.shields.io/badge/license-MIT-green">          <img src="https://img.shields.io/badge/type-GAME-blue">          <img src="https://img.shields.io/badge/plt-DESKTOP-RED">
 
 # corona-go
 A virus(corona) shooting  game built with python
