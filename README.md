@@ -7,10 +7,27 @@
 
 ## Editor: <img src="https://img.shields.io/badge/VSCODE-BLUE">
 
+## Installation:
+
+Install [Python](https://www.python.org/downloads/) latest version globally on your computer.
+
 ## How to run:
-1. Install <code>python</code> latest version globally.
-2. Install Pygame <code>pip install pygame</code>
-3. Run <code>main.py</code>
+
+From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/neeleshio/Corona-Go-Game
+
+# Go into the repository
+$ cd Corona-Go-Game
+
+# Install dependencies
+$ pip install pygame
+
+# Run
+$ main.py
+```
 
 ## Screenshots:
 <img src="https://raw.githubusercontent.com/neeleshio/stock-images/master/14.PNG" height="300" width="400"> <img src="https://raw.githubusercontent.com/neeleshio/stock-images/master/12.PNG" height="300" width="400"> <img src="https://raw.githubusercontent.com/neeleshio/stock-images/master/13.PNG" height="300" width="400"> <img src="https://raw.githubusercontent.com/neeleshio/stock-images/master/11.PNG" height="300" width="400">
